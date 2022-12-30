@@ -1,0 +1,45 @@
+# Mac OS X files
+.DS_Store
+
+# Dependency directories
+vendor/
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+coverage.html
+
+# Binaries for programs and plugins
+/bin
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# vim
+.*.swp
+
+# Visual Studio Code files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# GoLand and IntelliJ IDEA files
+.idea/
+
+# env files that usually contain secrets or local config
+.env
+.envrc
+
+# others
+.k8s
+builds
